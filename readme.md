@@ -1,5 +1,5 @@
 # Instrucciones de uso
-El programa necesita que le introduzcas el path de un archivo para checar sus contenidos
+El programa necesita que le introduzcas el **directorio** de un archivo para checar sus contenidos
 
 #### Ejemplo de uso:
 ```
