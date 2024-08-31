@@ -14,10 +14,9 @@ public class validarCURP {
             
             renglon++;
 
-                if (currentline.matches("[A-Z]{4}[0-9]{2}[0-1][1-9][0-3][1-9][HM][A-Z]{5,6}[0-9]{1,2}")) {
-                } else {
+                if (!currentline.matches("[A-Z]{4}[0-9]{2}[0-1][1-9][0-3][1-9][HM][A-Z]{5,6}[0-9]{1,2}")) {
                     System.out.println(currentline + " no es una CURP valida, renglon: " + renglon);
-                }
+                } 
         }
     }
 }
